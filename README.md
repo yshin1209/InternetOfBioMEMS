@@ -135,7 +135,7 @@ namespace ArduinoHub
             if (controlValue > 255) controlValue = 255; // upper limit for control signal
 
             // Call the broadcastMessage method to update clients.
-            Clients.All.broadcastMessage(sensor_val, control);
+            Clients.All.broadcastMessage(sensorValue, controlValue);
         }
     }
 }
