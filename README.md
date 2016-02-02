@@ -7,6 +7,8 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
   - [Johnny-five] [jf]: The Javascript Robotics Programming Framework
   - [SignalR] [signalr]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
+  - [Visual Studio Community 2015] [vs]
+  - Computer (Windows OS)
   - BioMEMS sensor
   - BioMEMS actuator
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
@@ -14,4 +16,5 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
 [node]: <https://nodejs.org>
 [jf]:<http://johnny-five.io/>
 [signalr]:<http://www.asp.net/signalr>
+[vs]: <https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx>
 
