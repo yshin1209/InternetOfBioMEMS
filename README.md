@@ -7,6 +7,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
   - [Johnny-five] [jf]: The Javascript Robotics Programming Framework
   - [SignalR] [signalr]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
+  - [socket.io] [socket]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
   - [Visual Studio] [vs]
   - Computer (Windows OS)
   - photoresistor (or any BioMEMS sensor compatible with Arduino)
@@ -16,13 +17,14 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
 ### Step 1: Download and install Node.js
 [Node.js Downloads] (https://nodejs.org/en/download/) 
 
-### Step 2: Install Johnny-five
+### Step 2: Install Johnny-five and socket.io
 Run: npm install johnny-five (npm is the package manager for node.js)
+Run: npm install socket.io
 
 ### Step 3: Setup your Arduino and run following Javascript code
 ```javascript
 var five = require("johnny-five"),
-    board, photoresistor;
+    board, sensor;
 
 board = new five.Board();
 
@@ -56,6 +58,9 @@ board.on("ready", function() {
     });
 });
 ```
+### Step 4: Create index.html which can talk to Arduino
+
+
 
 ### Step 4: Learn how SignalR works!
 [Tutorial: Getting Started with SignalR]: (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
@@ -66,6 +71,6 @@ board.on("ready", function() {
 [node]: <https://nodejs.org>
 [jf]:<http://johnny-five.io/>
 [signalr]:<http://www.asp.net/signalr>
-[socket.io]:<http://www.asp.net/signalr>
+[socket]:<http://http://socket.io/>
 [vs]: <https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx>
 [signalr tutorial]: <hhttp://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr>
