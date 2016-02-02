@@ -25,6 +25,7 @@ Run: npm install socket.io
 
 ### Step 3: Setup your Arduino and run following Javascript code
 ```javascript
+// server.js
 var five = require("johnny-five"),
     board, sensor;
 
