@@ -25,7 +25,7 @@ Run: npm install socket.io
 
 ### Step 3: Setup your Arduino and run following Javascript code
 
-[Photoresistor and LED setup] (http://arduino.sundh.com/wp-content/uploads/2013/02/arduino_photocell1.png)
+[Photoresistor and LED setup] (http://labalec.fr/erwan/wp-content/uploads/2014/03/LDR_bb.png)
 ```javascript
 // server.js
 var five = require("johnny-five"),
