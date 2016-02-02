@@ -12,7 +12,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - Computer (Windows OS)
   - Photoresistor (or any BioMEMS sensor compatible with Arduino)
   - LED (or any BioMEMS actuator compatible with Arduino)
-  - Breadboard, wires, resistors, etc.
+  - Breadboard, jump wires, resistors, etc.
 
 In this simple demo, a PID controller will be provided as a SignalR web service, which will modulate the photoresistor value by constantly updating the LED brightness to make it close to the reference value. 
 
