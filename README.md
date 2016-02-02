@@ -15,9 +15,9 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
 
 ### Step 1: Download and install Node.js
 [Node.js Downloads]: (https://nodejs.org/en/download/) 
-Run: npm install johnny-five (npm is the package manager for node.js)
 
-### Step 2: 
+### Step 2: Install Johnny-five
+Run: npm install johnny-five (npm is the package manager for node.js)
 
 ### Step 1: Learn SignalR
 [Tutorial: Getting Started with SignalR]: (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
