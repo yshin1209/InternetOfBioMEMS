@@ -146,6 +146,6 @@ namespace ArduinoHub
 [node]: <https://nodejs.org>
 [jf]:<http://johnny-five.io/>
 [signalr]:<http://www.asp.net/signalr>
-[socket]:<http://http://socket.io/>
+[socket]:<http://socket.io/>
 [vs]: <https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx>
 [signalr tutorial]: <hhttp://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr>
