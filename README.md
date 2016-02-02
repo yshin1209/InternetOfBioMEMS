@@ -58,7 +58,10 @@ board.on("ready", function() {
     });
 });
 ```
-### Step 4: Create index.html which can talk to Arduino
+### Step 4: Learn how SignalR works!
+[Tutorial: Getting Started with SignalR]: (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
+
+### Step 5: Create index.html which can talk to Arduino
 
 ``` html
 <!DOCTYPE html>
@@ -104,10 +107,34 @@ board.on("ready", function() {
 </body>
 </html>
 ```
+### Step 6: Implement ArduinoHub.cs 
+``` cs
+using System;
+using System.Web;
+using Microsoft.AspNet.SignalR;
+namespace SignalRChat
+{
+    public class ArduinoHub : Hub
+    {
+        public void Send(string sensor_val)
+        {
+            // PID
+            double adj_control = 0;
+            double reference = 600;
+            double sensor_value = Convert.ToDouble(sensor_val);
+            double error = reference - sensor_value;
+            double control = ((error * 1) / 850) * 255;
+            adj_control += control;
+            if (adj_control < 0) adj_control = 0;
+            if (adj_control > 255) adj_control = 255;
 
 
-### Step 4: Learn how SignalR works!
-[Tutorial: Getting Started with SignalR]: (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
+            // Call the broadcastMessage method to update clients.
+            Clients.All.broadcastMessage(sensor_val, adj_control);
+        }
+    }
+}
+```
 
 
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
