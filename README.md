@@ -19,7 +19,11 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
 ### Step 2: Install Johnny-five
 Run: npm install johnny-five (npm is the package manager for node.js)
 
-### Step 1: Learn SignalR
+### Step 3: Setup your Arduino
+
+
+
+
 [Tutorial: Getting Started with SignalR]: (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
 
 
@@ -28,5 +32,6 @@ Run: npm install johnny-five (npm is the package manager for node.js)
 [node]: <https://nodejs.org>
 [jf]:<http://johnny-five.io/>
 [signalr]:<http://www.asp.net/signalr>
+[socket.io]:<http://www.asp.net/signalr>
 [vs]: <https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx>
 [signalr tutorial]: <hhttp://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr>
