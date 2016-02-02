@@ -12,11 +12,16 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - BioMEMS sensor (or any sensor compatible with Arduino)
   - BioMEMS actuator (or any actuator compatible with Arduino)
   - Breadboard, wires, etc.
+
+### Step 1: Learn SignalR
+[Tutorial: Getting Started with SignalR] [signalr tutorial] Follow the tutorial and build a sample chat app
+
+
+
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
 [arduino]: <https://www.arduino.cc/>
 [node]: <https://nodejs.org>
 [jf]:<http://johnny-five.io/>
 [signalr]:<http://www.asp.net/signalr>
 [vs]: <https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx>
-
-### Step 1: Install Vistual Studio Community 2015
+[signalr tutorial]: <hhttp://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr>
