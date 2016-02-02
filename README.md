@@ -14,7 +14,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - Breadboard, wires, etc.
 
 ### Step 1: Download and install Node.js
-[Node.js Downloads]: (https://nodejs.org/en/download/) 
+[Node.js Downloads] (https://nodejs.org/en/download/) 
 
 ### Step 2: Install Johnny-five
 Run: npm install johnny-five (npm is the package manager for node.js)
