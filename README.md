@@ -13,9 +13,14 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - BioMEMS actuator (or any actuator compatible with Arduino)
   - Breadboard, wires, etc.
 
-### Step 1: Learn SignalR
-[Tutorial: Getting Started with SignalR] (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
+### Step 1: Download and install Node.js
+[Node.js Downloads]: (https://nodejs.org/en/download/) 
+Run: npm install johnny-five (npm is the package manager for node.js)
 
+### Step 2: 
+
+### Step 1: Learn SignalR
+[Tutorial: Getting Started with SignalR]: (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
 
 
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
