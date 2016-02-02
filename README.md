@@ -14,7 +14,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - LED (or any BioMEMS actuator compatible with Arduino)
   - Breadboard, wires, etc.
 
-As a simple demo, a PID controller will be provided as a SignalR web service, which will modulate the photoresistor value by constantly updating the LED brightness to make it close to the reference value 
+In this simple demo, a PID controller will be provided as a SignalR web service, which will modulate the photoresistor value by constantly updating the LED brightness to make it close to the reference value. 
 
 ### Step 1: Download and install Node.js
 [Node.js Downloads] (https://nodejs.org/en/download/) 
