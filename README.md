@@ -5,8 +5,8 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - [Microsoft Azure (cloud) account] [free azure]
   - [Arudino][arduino]: A simple microcontroller board and open-source development environment 
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
-  - [Johnny-five] [js]: The Javascript Robotics Programming Framework
-  - [SignalR] [signlar]
+  - [Johnny-five] [jf]: The Javascript Robotics Programming Framework
+  - [SignalR] [signalr]
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
 [arduino]: <https://www.arduino.cc/>
 [node]: <https://nodejs.org>
