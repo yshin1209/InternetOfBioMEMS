@@ -61,7 +61,7 @@ board.on("ready", function() {
     });
 });
 ```
-### Step 4: Learn How SignalR works!
+### Step 4: Learn how SignalR works!
 [Tutorial: Getting Started with SignalR]: (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
 
 ### Step 5: Create index.html which can talk to Arduino
