@@ -64,7 +64,7 @@ board.on("ready", function() {
 ### Step 4: Learn how SignalR works!
 [Tutorial: Getting Started with SignalR](http://www.asp.net/signalr) 
 
-### Step 5: Create index.html which can talk to Arduino
+### Step 5: Create index.html, which can talk to both Arduino and Azure
 
 ``` html
 <!DOCTYPE html>
