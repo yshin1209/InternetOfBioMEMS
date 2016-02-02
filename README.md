@@ -112,30 +112,29 @@ board.on("ready", function() {
 using System;
 using System.Web;
 using Microsoft.AspNet.SignalR;
-namespace SignalRChat
+namespace ArduinoHub
 {
     public class ArduinoHub : Hub
     {
         public void Send(string sensor_val)
         {
-            // PID
-            double adj_control = 0;
-            double reference = 600;
-            double sensor_value = Convert.ToDouble(sensor_val);
-            double error = reference - sensor_value;
-            double control = ((error * 1) / 850) * 255;
-            adj_control += control;
-            if (adj_control < 0) adj_control = 0;
-            if (adj_control > 255) adj_control = 255;
-
+            // simple P controller
+            // control signal for LED should be between 0 and 255
+            doubble Kp = 1; // Kp
+            double reference = 600;  
+            double maxSensor = 1000; // estimated sensor data range: 0 - 1000
+            double sensorValue = Convert.ToDouble(sensor_val);
+            double error = reference - sensorValue; 
+            double controlValue = (error * Kp) (255/maxSensor); // mapping from sensing to control
+            if (controlValue < 0) controlValue = 0;  // lower limit for control signal
+            if (controlValue > 255) controlValue = 255; // upper limit for control signal
 
             // Call the broadcastMessage method to update clients.
-            Clients.All.broadcastMessage(sensor_val, adj_control);
+            Clients.All.broadcastMessage(sensor_val, control);
         }
     }
 }
 ```
-
 
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
 [arduino]: <https://www.arduino.cc/>
