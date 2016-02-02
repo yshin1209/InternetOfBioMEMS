@@ -10,11 +10,11 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - [socket.io] [socket]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
   - [Visual Studio] [vs]
   - Computer (Windows OS)
-  - photoresistor (or any BioMEMS sensor compatible with Arduino)
+  - Photoresistor (or any BioMEMS sensor compatible with Arduino)
   - LED (or any BioMEMS actuator compatible with Arduino)
   - Breadboard, wires, etc.
 
-A PID controller will be provided as a SignalR web service, which will modulate the photoresistor value by constantly updating the LED brightness to make it close to the reference value 
+As a simple demo, a PID controller will be provided as a SignalR web service, which will modulate the photoresistor value by constantly updating the LED brightness to make it close to the reference value 
 
 ### Step 1: Download and install Node.js
 [Node.js Downloads] (https://nodejs.org/en/download/) 
