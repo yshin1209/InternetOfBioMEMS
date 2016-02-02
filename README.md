@@ -24,6 +24,8 @@ Run: npm install johnny-five (npm is the package manager for node.js)
 Run: npm install socket.io
 
 ### Step 3: Setup your Arduino and run following Javascript code
+
+[Photoresistor and LED setup] (http://arduino.sundh.com/wp-content/uploads/2013/02/arduino_photocell1.png)
 ```javascript
 // server.js
 var five = require("johnny-five"),
