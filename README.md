@@ -11,6 +11,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - Computer (Windows OS)
   - BioMEMS sensor
   - BioMEMS actuator
+  - Breadboard, wires, etc.
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
 [arduino]: <https://www.arduino.cc/>
 [node]: <https://nodejs.org>
