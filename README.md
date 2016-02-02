@@ -14,7 +14,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - Breadboard, wires, etc.
 
 ### Step 1: Learn SignalR
-[Tutorial: Getting Started with SignalR] [signalr tutorial] Follow the tutorial and build a sample chat app
+[Tutorial: Getting Started with SignalR] (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
 
 
 
