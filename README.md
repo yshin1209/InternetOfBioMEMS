@@ -24,8 +24,8 @@ Run: npm install johnny-five (npm is the package manager for node.js)
 Run: npm install socket.io
 
 ### Step 3: Setup your Arduino and run following Javascript code
-[Using Photoresistors (LDRs) with an Arduino] (https://blog.udemy.com/arduino-ldr/)
-[Photoresistor and LED setup] (http://labalec.fr/erwan/wp-content/uploads/2014/03/LDR_bb.png)
+*[Using Photoresistors (LDRs) with an Arduino] (https://blog.udemy.com/arduino-ldr/)
+*[Photoresistor and LED setup] (http://labalec.fr/erwan/wp-content/uploads/2014/03/LDR_bb.png)
 ```javascript
 // server.js
 var five = require("johnny-five"),
