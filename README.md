@@ -1,6 +1,6 @@
 # InternetOfBioMEMS
 
-This tutorial is about controlling a BioMEMS (Biological MicroMechanical System) usig a  cloud-enabled PID controller. You will need:
+This tutorial is about controlling a BioMEMS (Biological MicroMechanical System) usig a cloud-enabled PID controller. You will need:
 
   - [Microsoft Azure (cloud) account] [free azure]
   - [Arduino][arduino]: A simple microcontroller board and open-source development environment 
@@ -13,6 +13,8 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - photoresistor (or any BioMEMS sensor compatible with Arduino)
   - LED (or any BioMEMS actuator compatible with Arduino)
   - Breadboard, wires, etc.
+
+A PID controller will be provided as a SignalR web service, which will modulate the photoresistor value by constantly updating the LED brightness to make it close to the reference value 
 
 ### Step 1: Download and install Node.js
 [Node.js Downloads] (https://nodejs.org/en/download/) 
