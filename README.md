@@ -20,6 +20,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
 Run: npm install johnny-five (npm is the package manager for node.js)
 
 ### Step 3: Setup your Arduino and run following Javascript code
+''' javascript
 var five = require("johnny-five"),
     board, photoresistor;
 
@@ -55,7 +56,7 @@ board.on("ready", function() {
     });
 });
 
-
+''' 
 
 ### Step 4: Learn how SignalR works!
 [Tutorial: Getting Started with SignalR]: (http://www.asp.net/signalr) Follow the tutorial and build a sample chat app
