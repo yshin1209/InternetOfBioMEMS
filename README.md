@@ -127,10 +127,10 @@ namespace ArduinoHub
             // control signal for LED should be between 0 and 255
             doubble Kp = 1; // Kp
             double reference = 600;  
-            double maxSensor = 1000; // in case estimated sensor data range: 0 - 1000
+            double maxSensor = 1023; // sensor data range: 0 - 1023
             double sensorValue = Convert.ToDouble(sensor_val);
-            double error = reference - sensorValue; 
-            double controlValue = (error * Kp) (255/maxSensor); // mapping from sensing to control
+            double error = reference - sensorValue; //error range: 0 - 1023
+            double controlValue = error/maxSensor * Kp * 255; // error/maxSensor range: 0 - 1
             if (controlValue < 0) controlValue = 0;  // lower limit for control signal
             if (controlValue > 255) controlValue = 255; // upper limit for control signal
 
