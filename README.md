@@ -1,6 +1,6 @@
 # InternetOfBioMEMS
 
-![alt tag](https://cdn.rawgit.com/uconn-csml/InternetOfBioMEMS/master/arduinoSetup.png)
+
 
 This tutorial is about controlling a BioMEMS (Biological MicroMechanical System) usig a cloud-enabled PID controller. You will need:
 
@@ -33,6 +33,7 @@ In this simple demo, a PID controller will be provided as a SignalR web service,
 * Run: npm install socket.io
 
 ### Step 3: Setup your Arduino and run following Javascript code
+![alt tag](https://cdn.rawgit.com/uconn-csml/InternetOfBioMEMS/master/arduinoSetup.png)
 * Downloand and install [Arduino Software] [arduinoSoftware]  (Integrated Development Environment)
 * Select serial port (Select Tools > Port > ... )
 * Make sure "Standard Firmata" is installed on the Arduino board (Select File > Examples > Firmata > StandardFirmata and Click "Upload")
