@@ -26,6 +26,7 @@ In this simple demo, a PID controller will be provided as a SignalR web service,
 ### Step 3: Setup your Arduino and run following Javascript code
 * [Using Photoresistors (LDRs) with an Arduino] (https://blog.udemy.com/arduino-ldr/)
 * [Photoresistor and LED setup] (http://labalec.fr/erwan/wp-content/uploads/2014/03/LDR_bb.png)
+* Make sure "Standard Firmata" is installed on the Arduino board
 ```javascript
 // server.js
 var five = require("johnny-five"),
@@ -54,7 +55,8 @@ board.on("ready", function() {
         console.log(this.value);
         io.emit('sensing', this.value); //send the data to the browser
     });
-
+    
+    // Create an LED on pin 11
     var actuator = new five.Led(11);
     io.on('connection', function(socket){
         socket.on('control', function(value){
