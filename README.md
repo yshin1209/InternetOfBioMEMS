@@ -3,7 +3,7 @@
 This tutorial is about controlling a BioMEMS (Biological MicroMechanical System) usig a cloud-enabled PID controller. You will need:
 
   - [Microsoft Azure (cloud) account] [free azure]
-  - One (1) [Arduino][arduino]: A simple microcontroller board and open-source development environment 
+  - One (1) [Arduino Uno][arduino]: A simple microcontroller board and open-source development environment 
   - [Arduino Software] [arduinoSoftware]  (Integrated Development Environment)
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
   - [Johnny-five] [jf]: The Javascript Robotics Programming Framework
