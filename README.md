@@ -46,23 +46,18 @@ board.on("ready", function() {
         freq: 500  // Sampling frequency (500 milliseconds = 2 Hz)
     });
 
-    // Inject the `sensor` hardware into
-    // the Repl instance's context;
-    // allows direct command line access
-    /*board.repl.inject({
-        pot: sensor
-    });*/
-
+    // When the sensor value changes, execute {}
     sensor.on("change", function() {
         console.log(this.value); // Show the sensor value on Windows Command Shell
-        io.emit('sensorValue', this.value); //Send the sensor value to the web client (e.g., sensorValue: 300)
+        io.emit('sensorValue', this.value); //Send the sensor value named "sensorValue" to the web client (e.g., sensorValue: 300)
     });
 
     // Create a new BioMEMS actuator (LED) instance on pin 11
     var actuator = new five.Led(11);
     io.on('connection', function(socket){
-        socket.on('controlValue', function(value){
-            actuator.brightness(value); //Control the LED brightness
+        // When the control value is received from the web client (call this event "control"), execute {}
+        socket.on('control', function(controlValue){
+            actuator.brightness(controlValue); //Change the LED brightness to "value"
         });
     });
 });
