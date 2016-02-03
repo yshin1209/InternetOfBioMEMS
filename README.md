@@ -116,7 +116,7 @@ board.on("ready", function() {
 </body>
 </html>
 ```
-### Step 6: Implement ArduinoHub.cs 
+### Step 6: Implement ArduinoHub.cs (SignalR hub app)
 ``` cs
 using System;
 using System.Web;
