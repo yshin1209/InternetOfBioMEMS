@@ -20,6 +20,7 @@ In this simple demo, a PID controller will be provided as a SignalR web service,
 [Node.js Downloads] (https://nodejs.org/en/download/) 
 
 ### Step 2: Install Johnny-five and socket.io
+* Go to your project direcotry using Windows Command Shell
 * Run: npm install johnny-five (npm is the package manager for node.js)
 * Run: npm install socket.io
 
