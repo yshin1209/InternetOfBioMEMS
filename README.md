@@ -1,5 +1,5 @@
 # InternetOfBioMEMS
-
+![alt tag](https://cdn.rawgit.com/uconn-csml/InternetOfBioMEMS/master/blockDiagram.png)
 
 
 This tutorial is about controlling a BioMEMS (Biological MicroMechanical System) usig a cloud-enabled PID controller. You will need:
