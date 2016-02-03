@@ -167,6 +167,8 @@ namespace ArduinoHub
     }
 }
 ```
+### Step 7: Use Google Chrome for testing
+
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
 [arduinoUno]: <https://www.arduino.cc/en/Main/ArduinoBoardUno>
 [arduinoSoftware]: <https://www.arduino.cc/en/Main/Software>
