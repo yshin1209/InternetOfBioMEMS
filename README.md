@@ -41,6 +41,8 @@ In this simple demo, a PID controller will be provided as a SignalR web service,
 
 ```javascript
 // arduino.js
+// Yong-Jun Shin (yshin@engr.uconn.edu)
+// UCONN Computational and Systems Medicine Lab (csml.uconn.edu), 2016
 var five = require("johnny-five"), board = new five.Board();
 
 var io = require('socket.io')(8000);
@@ -78,6 +80,8 @@ board.on("ready", function() {
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="Author" content="Yong-Jun Shin (yshin@engr.uconn.edu)">
+    <meta name="Affiliation" content="UCONN Computational and Systems Medicine Lab (csml.uconn.edu), 2016">
     <title>Internet of BioMEMS</title>
     <!--Script references. -->
     <script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
@@ -120,7 +124,8 @@ board.on("ready", function() {
 ```
 ### Step 6: Implement ArduinoHub.cs (SignalR hub app)
 ``` cs
-using System;
+// Yong-Jun Shin (yshin@engr.uconn.edu)
+// UCONN Computational and Systems Medicine Lab (csml.uconn.edu), 2016
 using System.Web;
 using Microsoft.AspNet.SignalR;
 namespace ArduinoHub
