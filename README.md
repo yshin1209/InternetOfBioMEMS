@@ -49,8 +49,8 @@ board.on("ready", function() {
         freq: 500  // Sampling frequency (500 milliseconds = 2 Hz)
     });
 
-    // When the sensor value changes, execute {}
-    sensor.on("change", function() {
+    // When a new sensor value is avaiable, execute {}
+    sensor.on("data", function() {
         console.log(this.value); // Show the sensor value on Windows Command Shell
         io.emit('sensorValue', this.value); //Send the sensor value named "sensorValue" to the web client (e.g., sensorValue: 300)
     });
