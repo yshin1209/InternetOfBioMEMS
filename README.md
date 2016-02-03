@@ -124,6 +124,7 @@ board.on("ready", function() {
 ``` cs
 // Yong-Jun Shin (yshin@engr.uconn.edu)
 // UCONN Computational and Systems Medicine Lab (csml.uconn.edu), 2016
+// ArduinoHub.cs
 using Microsoft.AspNet.SignalR;
 using System;
 
@@ -151,6 +152,7 @@ namespace ArduinoHub
 }
 ```
 ```cs
+// Startup.cs
 using Microsoft.Owin;
 using Owin;
 [assembly: OwinStartup(typeof(ArduinoHub.Startup))]
