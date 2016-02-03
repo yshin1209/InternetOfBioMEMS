@@ -12,7 +12,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
 (supports Javascript, C#, Java, C++, Objective-C, etc., and enables communication between index.html (web client) and ArduinoHub.cs (Azure)
   - [Visual Studio] [vs]
   - Computer (Windows OS)
-  - One (1) USB A to USB B cable
+  - One (1) USB A to USB B cable (for connecting Arduino to Computer)
   - One (1) Photoresistor (GM5539) or any BioMEMS sensor compatible with Arduino
   - One (1) LED or any BioMEMS actuator compatible with Arduino
   - One (1) Resistor (10K ohms)
