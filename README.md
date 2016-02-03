@@ -33,39 +33,36 @@ In this simple demo, a PID controller will be provided as a SignalR web service,
 * [Using Photoresistors (LDRs) with an Arduino] (https://blog.udemy.com/arduino-ldr/)
 * [Photoresistor and LED setup] (http://labalec.fr/erwan/wp-content/uploads/2014/03/LDR_bb.png)
 ```javascript
-// server.js
-var five = require("johnny-five"),
-    board, sensor;
-
-board = new five.Board();
+// arduino.js
+var five = require("johnny-five"), board = new five.Board();
 
 var io = require('socket.io')(8000);
 
 board.on("ready", function() {
 
-    // Create a new BioMEMS sensor instance.
+    // Create a new BioMEMS sensor (photoresistor) instance.
     sensor = new five.Sensor({
         pin: "A0", // Arduino analog input pin number
-        freq: 500  // 500 milliseconds = 2 Hz
+        freq: 500  // Sampling frequency (500 milliseconds = 2 Hz)
     });
 
     // Inject the `sensor` hardware into
     // the Repl instance's context;
     // allows direct command line access
-    board.repl.inject({
+    /*board.repl.inject({
         pot: sensor
+    });*/
+
+    sensor.on("change", function() {
+        console.log(this.value); // Show the sensor value on Windows Command Shell
+        io.emit('sensorValue', this.value); //Send the sensor value to the web client (e.g., sensorValue: 300)
     });
 
-    sensor.on("data", function() {
-        console.log(this.value);
-        io.emit('sensing', this.value); //send the data to the browser
-    });
-    
-    // Create an LED on pin 11
+    // Create a new BioMEMS actuator (LED) instance on pin 11
     var actuator = new five.Led(11);
     io.on('connection', function(socket){
-        socket.on('control', function(value){
-            actuator.brightness(value);
+        socket.on('controlValue', function(value){
+            actuator.brightness(value); //Control the LED brightness
         });
     });
 });
