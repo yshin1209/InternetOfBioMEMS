@@ -4,6 +4,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
 
   - [Microsoft Azure (cloud) account] [free azure]
   - One (1) [Arduino][arduino]: A simple microcontroller board and open-source development environment 
+  - [arduinoSoftware] Arduino Software (Integrated Development Environment)
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
   - [Johnny-five] [jf]: The Javascript Robotics Programming Framework
   - [SignalR] [signalr]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
@@ -27,6 +28,7 @@ In this simple demo, a PID controller will be provided as a SignalR web service,
 ### Step 3: Setup your Arduino and run following Javascript code
 * [Using Photoresistors (LDRs) with an Arduino] (https://blog.udemy.com/arduino-ldr/)
 * [Photoresistor and LED setup] (http://labalec.fr/erwan/wp-content/uploads/2014/03/LDR_bb.png)
+* Select port (
 * Make sure "Standard Firmata" is installed on the Arduino board (Select File > Examples > Firmata > StandardFirmata and Click "Upload")
 ```javascript
 // server.js
@@ -146,6 +148,7 @@ namespace ArduinoHub
 
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
 [arduino]: <https://www.arduino.cc/>
+[arduinoSoftware]: <https://www.arduino.cc/en/Main/Software>
 [node]: <https://nodejs.org>
 [jf]:<http://johnny-five.io/>
 [signalr]:<http://www.asp.net/signalr>
