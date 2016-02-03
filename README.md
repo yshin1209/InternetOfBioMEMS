@@ -55,9 +55,9 @@ board.on("ready", function() {
     // Create a new BioMEMS actuator (LED) instance on pin 11
     var actuator = new five.Led(11);
     io.on('connection', function(socket){
-        // When the control value is received from the web client (call this event "control"), execute {}
+        // When the control value is received from the web client, execute {}
         socket.on('control', function(controlValue){
-            actuator.brightness(controlValue); //Change the LED brightness to "value"
+            actuator.brightness(controlValue); //Change the LED brightness to "controlValue"
         });
     });
 });
