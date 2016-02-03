@@ -26,10 +26,11 @@ In this simple demo, a PID controller will be provided as a SignalR web service,
 * Run: npm install socket.io
 
 ### Step 3: Setup your Arduino and run following Javascript code
+* Downloand and install [Arduino Software] [arduinoSoftware]  (Integrated Development Environment)
+* Select serial port (Select Tools > Port > ... )
+* Make sure "Standard Firmata" is installed on the Arduino board (Select File > Examples > Firmata > StandardFirmata and Click "Upload")
 * [Using Photoresistors (LDRs) with an Arduino] (https://blog.udemy.com/arduino-ldr/)
 * [Photoresistor and LED setup] (http://labalec.fr/erwan/wp-content/uploads/2014/03/LDR_bb.png)
-* Select port (
-* Make sure "Standard Firmata" is installed on the Arduino board (Select File > Examples > Firmata > StandardFirmata and Click "Upload")
 ```javascript
 // server.js
 var five = require("johnny-five"),
