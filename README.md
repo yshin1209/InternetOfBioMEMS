@@ -127,7 +127,6 @@ board.on("ready", function() {
 // ArduinoHub.cs
 using Microsoft.AspNet.SignalR;
 using System;
-
 namespace ArduinoHub
 {
     public class ArduinoHub : Hub
