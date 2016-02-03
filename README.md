@@ -7,8 +7,9 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - [Arduino Software] [arduinoSoftware]  (Integrated Development Environment)
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
   - [Johnny-five] [jf]: The Javascript Robotics Programming Framework
+  - [socket.io] [socket]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet (supports Javascript and enables communication between index.html (web client) and arduino.js (Node.js)
   - [SignalR] [signalr]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
-  - [socket.io] [socket]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
+(supports Javascript, C#, Java, C++, Objective-C, etc., and enables communication between index.html (web client) and ArduinoHub.cs (Azure)
   - [Visual Studio] [vs]
   - Computer (Windows OS)
   - One (1) Photoresistor (GM5539) or any BioMEMS sensor compatible with Arduino
