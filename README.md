@@ -12,7 +12,7 @@ This tutorial is about controlling a BioMEMS (Biological MicroMechanical System)
   - [socket.io] [socket]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet (supports Javascript and enables communication between index.html (web client) and arduino.js (Node.js)
   - [SignalR] [signalr]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
 (supports Javascript, C#, Java, C++, Objective-C, etc., and enables communication between index.html (web client) and ArduinoHub.cs (Azure)
-  - [Visual Studio] [vs]: For editing index.html and ArduinoHub.cs (and Startup.cs)
+  - [Visual Studio Community (free)] [vs]: For editing index.html and ArduinoHub.cs (and Startup.cs)
   - [WebStorm] [ws]: For editing arduino.js (you may also use Visual Studio)
   - Computer (Windows OS)
   - One (1) USB A to USB B cable (for connecting Arduino to Computer)
