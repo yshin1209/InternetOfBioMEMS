@@ -3,15 +3,15 @@
 This tutorial is about controlling a BioMEMS (Biological MicroMechanical System) usig a cloud-enabled PID controller. You will need:
 
   - [Microsoft Azure (cloud) account] [free azure]
-  - [Arduino][arduino]: A simple microcontroller board and open-source development environment 
+  - One (1) [Arduino][arduino]: A simple microcontroller board and open-source development environment 
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
-  - [Johnny-five] [jf]: The Javascript Robotics Programming Framework (enables Node.js to communicate with Arduino)
-  - [socket.io] [socket]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet (supports Javascript and enables communication between Node.js (server.js) and web client (index.html)
-  - [SignalR] [signalr]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet (supports Javascript, C#, Java, C++, Objective-C, etc., and enables communication between web client (index.html) and Azure hub app (ArduinoHub.cs) 
+  - [Johnny-five] [jf]: The Javascript Robotics Programming Framework
+  - [SignalR] [signalr]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
+  - [socket.io] [socket]: An open-source library enabling persistent, bi-directional, and real-time communication across the internet
   - [Visual Studio] [vs]
   - Computer (Windows OS)
-  - Photoresistor (or any BioMEMS sensor compatible with Arduino)
-  - LED (or any BioMEMS actuator compatible with Arduino)
+  - One (1) Photoresistor (or any BioMEMS sensor compatible with Arduino)
+  - One (1) LED (or any BioMEMS actuator compatible with Arduino)
   - Breadboard, jumper wires, resistors, etc.
 
 In this simple demo, a PID controller will be provided as a SignalR web service, which will modulate the photoresistor value by constantly updating the LED brightness to make it close to the reference value. 
