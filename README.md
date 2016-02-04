@@ -1,4 +1,4 @@
-# Internet of BioMEMS (Biological MicroMechanical System) 
+# Internet of BioMEMS (Biological MicroElectroMechanical System) 
 
 ![alt tag](https://cdn.rawgit.com/uconn-csml/InternetOfBioMEMS/master/blockDiagram2.png)
 
