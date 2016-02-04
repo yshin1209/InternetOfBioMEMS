@@ -1,8 +1,8 @@
 # Internet of BioMEMS (Biological MicroMechanical System) 
+
 ![alt tag](https://cdn.rawgit.com/uconn-csml/InternetOfBioMEMS/master/blockDiagram2.png)
 
-
-This tutorial is about controlling a BioMEMS (Biological MicroMechanical System) usig a cloud-enabled PID controller. You will need:
+Digital signal processing (DSP) and control algorithms can be useful for automating BioMEMS (Biological MicroMechanical System) applications. However, many BioMEMS researech labs often underutilize them because it is beyond the scope of their expertise. In this context, cloud-enabled DSP and control (e.g., the PID control) web services, which can be readily consumed by BioMEMS research labs any time anywhere, seems promising. This tutorial is about implementing a cloud-enabled PID controller. Instead of using real BioMEMS sensor and actuator, a photoresistor (sensor) and an LED (actuator) are used as these components are easily available.  
 
   - [Microsoft Azure (cloud) account] [free azure]
   - One (1) [Arduino Uno][arduinoUno]: A simple microcontroller board and open-source development environment 
