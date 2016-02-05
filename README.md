@@ -2,7 +2,7 @@
 
 Yong-Jun Shin (yshin@engr.uconn.edu)
 
-Computational and Systems Lab, Department of Biomedical Engineering, University of Connecticut (http://csml.uconn.edu)
+Computational and Systems Medicine Lab, Department of Biomedical Engineering, University of Connecticut (http://csml.uconn.edu)
 
 
 
