@@ -1,8 +1,9 @@
 ## Internet of BioMEMS (Biological MicroElectroMechanical System) 
-```
+
 Yong-Jun Shin (yshin@engr.uconn.edu)
+
 Computational and Systems Lab, Department of Biomedical Engineering, University of Connecticut (http://csml.uconn.edu)
-```
+
 
 
 ![alt tag](https://cdn.rawgit.com/uconn-csml/InternetOfBioMEMS/master/blockDiagram2.png)
