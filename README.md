@@ -10,8 +10,7 @@ Computational and Systems Medicine Lab, Department of Biomedical Engineering, Un
 
 Digital signal processing (DSP) and control can be useful for automating BioMEMS (Biological MicroMechanical System) applications. However, many BioMEMS research labs often under-utilize them as their implementation requires substantial time and efforts. In this context, developing cloud-enabled DSP and control (e.g., the PID control) web services, which can be easily consumed by BioMEMS research labs any time anywhere across the internet, seems promising. This tutorial is about implementing a cloud-enabled PID controller. Instead of working with real BioMEMS sensor and actuator, a photoresistor (sensor) and an LED (actuator) are used for the demonstration purpose only as these components are readily available.  
 
-  - [Microsoft Azure (cloud) account free-trial] [free azure], [Azure Education Grant][azureEdu]
-  - - A
+  - [Microsoft Azure (cloud) account free-trial] [free azure], [Azure Education Grant][azureEdu], [Azure Research Award][azureResearch]
   - One (1) [Arduino Uno][arduinoUno]: A simple microcontroller board and open-source development environment 
   - [Arduino Software] [arduinoSoftware]  (Integrated Development Environment)
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
@@ -179,6 +178,7 @@ namespace ArduinoHub
 
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
 [azureEdu]: <https://azure.microsoft.com/en-us/community/education/>
+[azureResearch]: <http://research.microsoft.com/en-us/projects/azure/default.aspx?utm_content=buffer488ef&utm_source=buffer&utm_medium=google&utm_campaign=Buffer>
 [arduinoUno]: <https://www.arduino.cc/en/Main/ArduinoBoardUno>
 [arduinoSoftware]: <https://www.arduino.cc/en/Main/Software>
 [node]: <https://nodejs.org>
