@@ -12,6 +12,19 @@ Digital signal processing (DSP) and control can be useful for automating BioMEMS
 
   - Microsoft Azure (cloud) subscription: [Free-trial] [free azure], [Azure Education Grant][azureEdu], [Azure Research Award][azureResearch]
   - One (1) [Arduino Uno][arduinoUno]: A simple microcontroller board and open-source development environment 
+  - One (1) Computer (Windows OS)
+  - One (1) USB A to USB B cable (for connecting Arduino to Computer)
+  - One (1) Photoresistor (GM5539) or any BioMEMS sensor compatible with Arduino
+  - One (1) LED or any BioMEMS actuator compatible with Arduino
+  - One (1) Resistor (10K ohms)
+  - One (1) Protoboard
+  - Jumper wires
+  - One (1) USB A to USB B cable (for connecting Arduino to Computer)
+  - One (1) Photoresistor (GM5539) or any BioMEMS sensor compatible with Arduino
+  - One (1) LED or any BioMEMS actuator compatible with Arduino
+  - One (1) Resistor (10K ohms)
+  - One (1) Protoboard
+  - Jumper wires
   - [Arduino Software] [arduinoSoftware]  (Integrated Development Environment)
   - [Node.js] [node]: An open-source, cross-platform runtime environment (uses Javascript)
   - [Johnny-five] [jf]: The Javascript Robotics Programming Framework
@@ -20,13 +33,8 @@ Digital signal processing (DSP) and control can be useful for automating BioMEMS
 (supports Javascript, C#, Java, C++, Objective-C, etc., and enables communication between index.html (web client) and ArduinoHub.cs (Azure)
   - [Visual Studio Community (free)] [vs]: For editing index.html and ArduinoHub.cs (and Startup.cs)
   - [WebStorm] [ws]: For editing arduino.js (you may also use Visual Studio)
-  - Computer (Windows OS)
-  - One (1) USB A to USB B cable (for connecting Arduino to Computer)
-  - One (1) Photoresistor (GM5539) or any BioMEMS sensor compatible with Arduino
-  - One (1) LED or any BioMEMS actuator compatible with Arduino
-  - One (1) Resistor (10K ohms)
-  - One (1) Protoboard
-  - Jumper wires
+
+
 
 In this simple demo, a PID controller will be provided as a SignalR web service, which will modulate the photoresistor value by constantly updating the LED brightness to make it close to the reference value. 
 
