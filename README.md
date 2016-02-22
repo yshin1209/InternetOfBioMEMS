@@ -174,11 +174,8 @@ namespace ArduinoHub
 }
 ```
 ### Step 7: Use Google Chrome for testing
-Click the image to watch the demo video.
-[![YouTube: Internet of BioMEMS demo](http://img.youtube.com/vi/sX60sUeqlg4/0.jpg)]
-(https://www.youtube.com/watch?v=sX60sUeqlg4  "Internet of BioMEMS demo")
 
-[![ScreenShot](https://github.com/uconn-csml/InternetOfBioMEMS/blob/master/demo.png)](www.youtube.com/watch?v=sX60sUeqlg4)
+[![ScreenShot](https://github.com/uconn-csml/InternetOfBioMEMS/blob/master/demo.png)](https://www.youtube.com/watch?v=sX60sUeqlg4)
 
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
 [azureEdu]: <https://azure.microsoft.com/en-us/community/education/>
