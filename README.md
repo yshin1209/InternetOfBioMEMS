@@ -174,6 +174,7 @@ namespace ArduinoHub
 }
 ```
 ### Step 7: Use Google Chrome for testing
+[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=sX60sUeqlg4&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=sX60sUeqlg4&feature=youtu.be)
 ![alt tag](https://cdn.rawgit.com/uconn-csml/InternetOfBioMEMS/master/demo.png)
 
 [free azure]: <https://azure.microsoft.com/en-us/pricing/free-trial/>
