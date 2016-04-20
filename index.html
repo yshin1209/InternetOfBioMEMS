@@ -33,7 +33,6 @@
           // Recieve sensor signal from Arduino
           socket.on('sensing', function (value) {
               arduino.server.send(value);
-              $('#sensing').text(value);
           });
         });
       });
